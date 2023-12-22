@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        .cnome{
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Exercicio de tabelas</h1>
 
     <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
         <caption>Cadastros</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -35,22 +63,22 @@
             <td>Professor</td>
         </tr>
         <tr>
-            <td>Ana Maria</td>
-            <td>F</td>
-            <td>25</td>
-            <td>Jornalista</td>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Vendedor</td>
         </tr>
         <tr>
-            <td>Ana Maria</td>
+            <td>Maria</td>
             <td>F</td>
-            <td>25</td>
-            <td>Jornalista</td>
+            <td>39</td>
+            <td>Médica</td>
         </tr>
         <tr>
-            <td>Ana Maria</td>
-            <td>F</td>
-            <td>25</td>
-            <td>Jornalista</td>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Nutricionista</td>
         </tr>
     </table>
 
