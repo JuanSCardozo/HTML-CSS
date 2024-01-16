@@ -12,7 +12,10 @@ Grandes Telas: acima de 1200px
 */
 
 @media print {
-    
+    body {
+        background-image: url(../imagens/back-print.jpg);
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px)
